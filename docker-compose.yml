@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+    jupyter:
+        image: python:3.8
+        stdin_open: true # docker run -i; We need this for pipenv
+        tty: true        # docker run -t we need this for pipenv
+        command: bash -c "
+            pip install pipenv
+            && pipenv install --system --deploy --ignore-pipfile
+            && jupyter notebook --ip=0.0.0.0 --allow-root
+            "
+        working_dir: /var/app
+        volumes:
+            - $PWD:/var/app:rw
+        entrypoint: []
+        ports:
+            - 8888:8888
