@@ -36,6 +36,8 @@ as group or for mentorship.
 
 ### Scope (LEGB)
 
+[06_scopes.ipynb](06_scopes.ipynb)
+
 - Scope definition
 - What is the border of scope
 - How many scopes
@@ -43,3 +45,19 @@ as group or for mentorship.
 - Relative scope (the same variable could be in several scopes: global, local)
 - locals(), globals()
 - How python clarifies that variable is locacl or global in scope of function
+
+
+### Function arguments
+
+[07_args.ipynb](07_args.ipynb)
+
+- Function arguments
+- Function arguments types (args, kwargs)
+- Arguments order
+- Unpacking
+- Passing mutable/immutable argument
+- Mutable/immutable variable as default variable value like `def func(some_list=[])`
+- functools.partial
+- Lambda functions
+- Lambda late binding
+- Type hinting
