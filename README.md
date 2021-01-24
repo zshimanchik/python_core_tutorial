@@ -61,3 +61,17 @@ as group or for mentorship.
 - Lambda functions
 - Lambda late binding
 - Type hinting
+
+
+### Memory management
+
+[memory_management](XX_memory_management.ipynb)
+
+- Reference counter
+- `sys.getrefcount`
+- Cyclic reference problem
+- Garbage collector
+- `gc` module 
+- Disabling garbage collection
+- `__del__` problem
+- weakrefs
