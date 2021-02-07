@@ -81,15 +81,16 @@ todo
 
 ### Decorators
 
-todo
-
 - What is decorator
 - How to use decorator without `@` syntax?
-- Where you can apply decorator?
-- What is enclosure?
-- Caching decorator example
+- Decorator examples
 - Parametrized decorator
+- Flask-app-like decorator example
+- Where you can apply decorator?
 
+### Enclosure
+
+todo
 
 ### Memory management
 
