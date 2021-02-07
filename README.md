@@ -63,6 +63,34 @@ as group or for mentorship.
 - Type hinting
 
 
+### Iterator, Generator
+
+todo
+
+- iterable object, iterator
+- ...
+ 
+
+### Context managers
+
+[08_context_managers.ipynb](08_context_managers.ipynb)
+
+- What is it, advantages, popular examples
+- How to implement as class with `__enter__`, `__exit__`
+- How to implement with `@contextlib.contextmanager`
+
+### Decorators
+
+todo
+
+- What is decorator
+- How to use decorator without `@` syntax?
+- Where you can apply decorator?
+- What is enclosure?
+- Caching decorator example
+- Parametrized decorator
+
+
 ### Memory management
 
 [memory_management](XX_memory_management.ipynb)
